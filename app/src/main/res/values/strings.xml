@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ strings xml
+  ~ Created by G.Capelli (BasicAirData) on 14/5/2017
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">Air Data Bridge</string>
+
+    <!-- Main Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_new_logfile">New Log</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_realtime_view">Realtime View</string>
+    <string name="action_about">About</string>
+
+    <!-- Tabs -->
+    <string name="tab_adcstatus">REAL TIME</string>
+    <string name="true_airspeed">True Airspeed</string>
+    <string name="altitude">Altitude</string>
+    <string name="temperature">Temperature</string>
+    <string name="datetime">Datetime</string>
+    <string name="timesync">Time Sync</string>
+    <string name="absolute_pressure">Absolute pressure</string>
+    <string name="differential_pressure">Differential pressure</string>
+    <string name="air_density">Air Density</string>
+    <string name="air_viscosity">Air Viscosity</string>
+    <string name="realtime_disabled">Realtime View Disabled</string>
+    <string name="realtime_update_at_hz">Data Frequency %1$s Hz</string>
+    <string name="realtime_not_connected">Air Data Computer not connected\n\nWhen the ADC is connected\non this tab you can view the data\nin real time</string>
+    <string name="sync_no_sync">no sync</string>
+    <string name="sync_android_time">Android time</string>
+
+    <string name="tab_remote_loglist">REMOTE</string>
+    <string name="remote_sd_not_connected">Air Data Computer not connected\n\nWhen the ADC is connected\non this tab you can manage the Log Files\nof the remote SDCard</string>
+    <string name="remote_sd_empty">The remote SDCard is empty</string>
+    <string name="remote_sd_not_present">Remote SDCard not present</string>
+
+    <string name="tab_local_loglist">LOCAL</string>
+    <string name="local_archive_empty">The local archive is empty</string>
+    <string name="local_archive_permission_denied">The app hasn\'t the permission\nto access to the local storage</string>
+
+    <!-- Bluetooth Status -->
+    <string name="status_bt_connected_with">Connected to %1$s - v.%2$s</string>
+    <string name="status_bt_connected">Connected</string>
+    <string name="status_bt_connecting">Looking for Air Data Computer ...</string>
+    <string name="status_bt_disconnected">Disconnected</string>
+    <string name="status_bt_off">Bluetooth disabled</string>
+    <string name="status_bt_not_present">Bluetooth adapter not present</string>
+
+    <!-- Cards -->
+    <string name="card_recording">RECORDING</string>
+
+    <!-- Card menu -->
+    <string name="card_menu_start_recording">Start Recording</string>
+    <string name="card_menu_stop_recording">Stop Recording</string>
+    <string name="card_menu_share">Share with ...</string>
+    <string name="card_menu_download">Download</string>
+    <string name="card_menu_delete">Delete</string>
+
+    <!-- Dialogs -->
+    <string name="card_message_delete_remote_file_confirmation">Do you really want to delete this File from the Air Data Computer?</string>
+    <string name="card_message_delete_local_file_confirmation">Do you really want to delete this Local File?</string>
+    <string name="dlg_new_remote_logfile_title">New Remote Log file</string>
+    <string name="dlg_new_local_logfile_title">New Local Recording</string>
+    <string name="dlg_download_the_file">Downloading %1$s ...</string>
+    <string name="dlg_download_notification">Audio Notification when finished</string>
+    <string name="dlg_download_delete_remote_file">Delete the remote File</string>
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- About Dialog -->
+    <string name="about_version">ver.</string>
+    <string name="about_description">Copyright (C) 2017 BasicAirData\nhttp://www.basicairdata.eu\n\nAir Data Bridge is a simple app to manage the BasicAirData Air Data Computer with your Android device.\n\nUsing this app you can connect with the Air Data Computer on-the-field via Bluetooth and drive the device to do many things. For example you can view the air data in real time, start and stop the remote logging on the remote SDCard, set many parameters of the ADC and download your recordings.\n\nThe application is made to work with the BasicAirData Asgard Air Data Computer (https://github.com/BasicAirData/AirDataComputer).\n\nThis program is free software, released under the terms of the GNU General Public License.\nFor more details see: http://www.gnu.org/licenses/gpl.txt.</string>
+    <string name="about_ok">Close</string>
+
+    <!-- Toasts -->
+    <string name="toast_file_already_exists">The file already exists</string>
+
+    <!-- Settings -->
+    <string name="pref_category_interface">INTERFACE</string>
+    <string name="pref_keep_screen_on">Keep the Screen On</string>
+    <string name="pref_keep_screen_on_summary">Battery drains faster</string>
+
+    <string name="pref_category_airdatacomputer">AIR DATA COMPUTER</string>
+    <string name="pref_device_name">Bluetooth Device Name</string>
+    <string name="pref_sync_datetime">Synchronize Date and Time</string>
+    <string name="pref_sync_datetime_nosync">no synchronization</string>
+    <string name="pref_sync_datetime_android">with Android time</string>
+    <string name="pref_sd_recording_frequency">Remote SD recording Frequency</string>
+    <string name="pref_bt_data_frequency">Bluetooth Data Frequency</string>
+
+    <string name="pref_category_downloads">DOWNLOADS</string>
+    <string name="pref_download_notification">Play Audio Notification</string>
+    <string name="pref_download_notification_summary">when a download is completed</string>
+    <string name="pref_download_delete_remote_file">Delete the remote File</string>
+    <string name="pref_download_delete_remote_file_summary">if the download is successful</string>
+
+    <!-- Units of measurement -->
+    <string name="hz">Hz</string>
+    <string name="m_s">m/s</string>
+    <string name="km_h">km/h</string>
+    <string name="degc">°C</string>
+    <string name="m">m</string>
+    <string name="Pa">Pa</string>
+    <string name="kg_m3">kg/m³</string>
+    <string name="Paxs">Pa·s</string>
+
+
+</resources>
